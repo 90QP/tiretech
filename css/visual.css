@@ -1,0 +1,17 @@
+.visual img {
+  max-width: 100%;
+}
+
+.visual_mo {
+  display: none;
+}
+
+@media (max-width:991px) {
+  .visual_pc {
+    display: none;
+  }
+
+  .visual_mo {
+    display: block;
+  }
+}
